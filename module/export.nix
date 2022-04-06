@@ -44,6 +44,8 @@ in {
             }
           '';
         filename = cfg.nix;
+        file_permission = "0644";
+        directory_permission = "0755";
       };
     };
   };
